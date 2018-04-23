@@ -1,0 +1,15 @@
+.Nav {
+  & ul {
+    list-style-type: none;
+    padding: 10px;
+
+    & li {
+      display: inline;
+      padding: 15px;
+
+      & a {
+        color: #212121;
+      }
+    }
+  }
+}
